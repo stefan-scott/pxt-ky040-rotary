@@ -18,5 +18,5 @@ basic.forever(function () {
         . . # # # # # . . .
         . . . # # # . . . .
         . . . . # . . . . .
-        `).showImage(Xcord, 400)
+        `).showImage(Xcord, 100)
 })
