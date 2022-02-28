@@ -1,11 +1,11 @@
 {
-    "name": "ky40 basic test with klein extension ",
+    "name": "ky40 basic test with klein extension  #2",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-ky-040": "github:MKleinSB/pxt-KY-040#v1.0.3"
+        "pxt-ky-040": "github:mkleinsb/pxt-ky-040#v2.0.2"
     },
     "files": [
         "main.blocks",
