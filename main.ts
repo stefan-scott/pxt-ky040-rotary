@@ -10,7 +10,7 @@ KY040.onTurned(direction.counterclockwise, function () {
 let Xcord = 0
 KY040.setKY040(DigitalPin.P1, DigitalPin.P15, DigitalPin.P14)
 Xcord = 2
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     images.createBigImage(`
         . . . # . # . . . .
