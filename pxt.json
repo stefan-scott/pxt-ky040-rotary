@@ -1,5 +1,5 @@
 {
-    "name": "ky40 test klein ",
+    "name": "ky40 basic test with klein extension ",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -16,11 +16,11 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.16",
+        "target": "4.0.18",
         "targetId": "microbit"
     },
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
