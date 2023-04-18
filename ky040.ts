@@ -80,10 +80,10 @@ namespace rotaryEncoder {
             if (EvCounter % 2 == 0) { // kill every second Event            
                 if (Richtung == 1) {
                     serial.writeLine("counterclockwise")
-                    control.raiseEvent(KYEventID + direction.clockwise, direction.clockwise);
+                    control.raiseEvent(KYEventID + direction.counterclockwise, direction.counterclockwise);
                 } else {
                     serial.writeLine("clockwise")
-                    control.raiseEvent(KYEventID + direction.counterclockwise, direction.counterclockwise);
+                    control.raiseEvent(KYEventID + direction.clockwise, direction.clockwise);
                 }
             }
             CLKLETZTE = CLKAKTUELL
