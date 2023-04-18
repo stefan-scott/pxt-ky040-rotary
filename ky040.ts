@@ -1,7 +1,7 @@
 const enum direction {
-    //% block="RIGHT"
-    clockwise = 2,
     //% block="LEFT"
+    clockwise = 2,
+    //% block="RIGHT"
     counterclockwise = 4
 }
 
